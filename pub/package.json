@@ -1,0 +1,14 @@
+{
+  "name": "themeify_documentation",
+  "version": "1.0.0",
+  "description": "documentation for Themeify JS Library",
+  "main": "example.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "docsify serve ./docs"
+  },
+  "author": "",
+  "license": "ISC"
+}

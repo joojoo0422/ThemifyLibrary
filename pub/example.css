@@ -1,0 +1,185 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* example.html CSS*/
+
+/* Nav Bar Styles */
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: gainsboro;
+	font-family:serif;
+}
+#neonNav{
+	background-color: black;
+	color: white;
+}
+.navbar {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 25px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.navbar:hover {
+  background-color: grey;
+}
+.navlist {
+	float:left;
+}
+/* Content Styling */
+.home {
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    margin: 15px 30px 0;
+    width: 250px;
+    height:100px;
+    font-size: 50px;
+    background-color: black;
+    text-align: center;
+    border: solid black 3px;
+    padding-top: 25px;
+}
+.retro {
+    color: #068587;
+    font-family: Bungee Shade;
+    text-decoration: none;
+}
+.neon {
+    color: #FA0990;
+    font-family: Megrim;
+    font-size: 52px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.title_description {
+    margin-bottom: 0px;
+    padding-top: 60px;
+    font-size: 110px;
+}
+.home_description {
+    font-size: 25px;
+}
+
+/* example_retro.html / example_neon.html CSS*/
+
+.title {
+	margin-bottom: 10px;
+	display: inline-block;
+	text-align: center;
+}
+
+.subtitle {
+	display: block;
+	text-align: left;
+	width: 100%;
+}
+  
+.themeElement{
+	margin: 8px 25%;
+	display: inline-block;
+/*	text-align: center;*/
+}
+
+.container {
+	margin: 25px auto;
+	width: 90%;
+	padding: 0px;
+	padding-bottom: 10px;
+}
+
+/* Retro Theme */
+
+.retroTheme{
+	background-color: white;
+}
+
+.retroTheme .newFont{
+	font-family: 'Bungee Inline';
+	text-shadow: 2px 2px 0 var(--yellow), -2px -2px 0 var(--aquaGreen);
+	color: black;
+	font-size: 40px;
+	margin: 10px 20px;
+	margin-top: 20px;
+}
+
+.retroTheme .explanation{
+	margin: 0px 20px;
+	color: black;
+	font-size: 20px;
+	font-family: 'Bungee Inline';
+}
+
+.retroTheme .subtitle{ 
+	font-family: 'Bungee Inline';
+	font-size: 30px;
+	margin: 20px 15px 15px 0px;
+	text-shadow: 2px 2px 0 var(--lightGreen);
+}
+
+.retroTheme .container{
+	border: 3px solid var(--darkBlue);
+	box-shadow: 5px 5px var(--aquaGreen), 10px 10px var(--lightGreen);
+}
+
+.retroTheme #out{
+	text-shadow: 2px 2px 0 var(--red), -2px -2px 0 var(--lightGreen);
+	font-size: 50px;
+}
+
+/* Neon Theme */
+
+.neonTheme{
+	background-color: black;
+	color: white;
+	margin: 0;
+	cursor: url(./themeify/cursor/neon_purple.cur),auto;
+	padding-bottom: 10px
+}
+
+.neonTheme .title {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.neonTheme .newFont{
+	font-family: 'Monoton', cursive;
+	color: white;
+	font-size: 40px;
+	margin: 10px 30px;
+	margin-top: 20px;
+	text-shadow: 0 0 20px #fff, 0 0 30px var(--lightPink), 0 0 40px var(--lightPink), 0 0 50px var(--lightPink);
+}
+
+.neonTheme .explanation{
+	margin: 0px 30px;
+	color: white;
+	font-size: 25px;
+	font-family: 'Megrim', cursive;
+}
+
+.neonTheme .subtitle{ 
+	font-family: 'Monoton', cursive;
+	font-size: 25px;
+	
+	margin: 20px 15px 15px 0px;
+}
+
+.neonTheme .container{
+	border: 1px solid white;
+	box-shadow: 0 0 20px var(--lightPink);
+}
+
+.neonTheme #out{
+	text-shadow:0 0 20px #fff, 0 0 30px var(--blue), 0 0 40px var(--blue), 0 0 50px var(--blue), 0 0 60px var(--blue);
+	font-size: 50px;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "js-library-jeonjooh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csc309-summer-2020/js-library-jeonjooh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csc309-summer-2020/js-library-jeonjooh/issues"
+  },
+  "homepage": "https://github.com/csc309-summer-2020/js-library-jeonjooh#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

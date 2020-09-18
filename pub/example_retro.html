@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ 	<meta charset="utf-8">
+    <title>Retro</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- CSS File for example.html -->
+    <link rel='stylesheet' href='example.css' type="text/css" charset="utf-8"/>
+
+    <!-- CSS File for themeify library - must be imported for fonts and colors -->
+    <link rel='stylesheet' href='./themeify/themeify.css' type="text/css" charset="utf-8"/>
+
+    <!-- must attach .js file for corresponding theme user wants to use -->
+    <script defer type="text/javascript" src='./themeify/themeify_retro.js'></script>
+
+     <!-- example.js file to show all  -->
+    <script defer type="text/javascript" src='example.js'></script>
+
+ </head>
+ <body>
+  <!-- Nav Bar -->
+  <ul class='nav'>
+    <li style='float:right;'><a href="https://joojoo0422.github.io/ThemeifyDocumentation/#/" class='navbar'>API</a></li>
+    <li style='float:right;'><a href="./index.html" class='navbar'>Home</a></li>
+  </ul>
+  <!-- RETRO THEME -->
+  <div class='retroTheme'>
+  <div class='title'>
+    <div id='htmlTitle'></div>
+  </div>
+
+  <div class='newFont' id='out'>Elements</div>
+    <div class='explanation'> These are the custom elements created by using the Themeify Library. Users can choose to use these elements to easily create a Retro Themed website. </div>
+
+  <!-- Fonts -->
+  <div class='container' id='fontContainer'>
+    <div class='newFont'>Fonts</div>
+    
+      <div class='explanation'> You can use the funtion "changeFont" in provided in every element generators to change fonts. Here are the available fonts for theme "Retro":</div>
+      <div class='themeElement' style='text-align: center;'>
+      <span style='margin: 0 20%; font-size: 40px; font-family: Pacifico;'>Pacifico (default)</span>
+      <span style='margin: 0 15%; font-size: 40px; font-family: Bungee Shade, cursive;'>Bungee Shade</span>
+      <span style='margin: 0 35%; font-size: 40px; font-family:bratsy_script_demoreguler'>Bratsy</span>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <div class='container'>
+  <div class='newFont'>Title</div>
+  <div class = 'themeElement'>
+    <div class='subtitle'>Regular Size Title: Default</div>
+    <div id='titleRegular'></div>
+     <div class='subtitle'>Large Size Title: themeify('aquaGreen','red')</div>
+    <div id='titleLarge'></div>
+     <div class='subtitle'>Small Size Title: themeify('darkBlue','yellow')</div>
+    <div id='titleSmall'></div>
+  </div>
+  </div>
+
+  <!-- Menu Bar -->
+  <div class='container'>
+  <div class='newFont'>Menu Bar</div>
+  <div class= 'themeElement'>
+    <div class='subtitle'>Horizontal Color Menu Bar</div>
+    <div id='colorHorizontalMenu'></div>
+    <div class='subtitle'>Horizontal Disk Menu Bar</div>
+    <div id='diskHorizontalMenu'></div>
+    
+    <div>
+      <div class='subtitle' >Vertical Color Menu Bar  /  Vertical Disk Menu Bar</div>
+    </div>
+    <div>
+      <div style='float:left; margin: 10px 100px'id='colorVerticalMenu'></div>
+      <div style='float:left; margin: 0px 10px'id='diskVerticalMenu'></div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Buttons -->
+  <div class='container'>
+  <div class='newFont'>Buttons</div>
+  <div class = 'themeElement'>
+    <div class='subtitle'>Button - Border Change onMouseOver</div>
+    <div id='buttonBorder'></div>
+    <div class='subtitle'>Button - Image when pressed</div>
+    <div id='buttonImgPressed'></div>
+    <div class='subtitle'>Button - Button Real Pressed Effect</div>
+    <div id='buttonRealPressed'></div>
+  </div>
+  </div>
+
+  <!-- Text/Image Boxes -->
+  <div class='container'>
+  <div class='newFont'>Text / Image Boxes</div>
+
+  <div class = 'themeElement'>
+
+      <div class='subtitle'>Regular Text Box & Image Frame</div>
+      <div style='float:left; margin: 10px 7%;'id='textbox'></div>
+      <div style='float:left; margin: 10px 7%;'id='editabletextbox'></div>
+      <div style='float:left; margin: 10px 8%;'id='imgbox'></div>
+   
+      <div class='subtitle'>Themeify-Rainbow Text Box & Themeify-CD Text Box</div>
+      <div style='float:left; margin: 0 15px;'id='textboxRainbow'></div>
+      <div style='float:left; margin: 0 20px 25px 20px;'id='textboxCD'></div>
+  </div>
+  </div>
+
+  <div class='container'>
+  <div class='newFont'>Animations: Text / Image Boxes</div>
+  <div class='explanation'> The animations for Retro Theme are focused on the Text/Image boxes. These animations can be applied to elements created by InputBoxGenerator.</div>
+    
+  <div class = 'themeElement' style='margin: 0 32%;'>
+      <div class='subtitle'>Flip Animation</div>
+      <div id='textboxFlip' style='margin-left: 15px;'></div>
+
+      <div class='subtitle'>Spin Animation</div>
+      <div id='textboxSpin' style='margin-left: 15px;'></div>
+
+      <div class='subtitle' style='margin-top:40px;'>Shine on Click Animation</div>
+      <div class='explanation' style='font-size:15px; margin:0;'> Click on the box to see shine effect!</div>
+      <div id='textboxShine' style='margin-left: 15px;'></div>
+
+      <div class='subtitle' style='margin-top:40px;'>Reveal on Click Animation</div>
+      <div id='textboxReveal' style='margin-left: 15px;'></div>
+
+  </div>
+  </div>
+
+  </div>
+
+ </body>
+
+</html>

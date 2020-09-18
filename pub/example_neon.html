@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ 	<meta charset="utf-8">
+    <title>Neon</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- CSS File for example.html -->
+    <link rel='stylesheet' href='example.css' type="text/css" charset="utf-8"/>
+
+    <!-- CSS File for themeify library - must be imported for fonts and colors -->
+    <link rel='stylesheet' href='./themeify/themeify.css' type="text/css" charset="utf-8"/>
+
+    <!-- must attach .js file for corresponding theme user wants to use -->
+    <script defer type="text/javascript" src='./themeify/themeify_neon.js'></script>
+
+     <!-- example.js file to show all  -->
+    <script defer type="text/javascript" src='example.js'></script>
+
+ </head>
+ <body>
+
+  <!-- Nav Bar -->
+  <ul class='nav' id='neonNav'>
+    <li style='float:right;'><a href="https://joojoo0422.github.io/ThemeifyDocumentation/#/" class='navbar' id='neonNav'>API</a></li>
+    <li style='float:right;'><a href="./index.html" class='navbar' id='neonNav'>Home</a></li>
+  </ul>
+
+  <!-- Neon Theme -->
+  <div class='neonTheme'>
+  <div class='title'>
+    <div id='neonTitle'></div>
+  </div>
+
+  <div class='newFont' id='out'>Elements</div>
+    <div class='explanation'> These are the custom elements created by using the Themeify Library. Users can choose to use these elements to easily create a Neon Themed website. </div>
+
+  <!-- Fonts -->
+  <div class='container' id='fontContainer'>
+    <div class='newFont'>Fonts</div>
+      <div class='explanation'> You can use the funtion "changeFont" in provided in every element generators to change fonts. Here are the available fonts for theme "Neon":</div>
+    <div class='themeElement' style='text-align: center;'>
+      <span style='margin: 0 20%; font-size: 40px; font-family:Megrim, cursive'>Megrim (default)</span>
+      <span style='margin: 0 15%; font-size: 40px; font-family: Monoton, cursive;'>Monoton (Title)</span>
+      <span style='margin: 0 30%; font-size: 40px; font-family: Comfortaa, cursive;'>Comfortaa </span>
+    </div>
+  </div>
+
+  <!-- Title Elements-->
+  <div class='container'>
+  <div class='newFont'>Title</div>
+  
+  <div class = 'themeElement'>
+    <div class='subtitle'>Regular Size Title: DEFAULT</div>
+    <div id='titleRegular'></div>
+     <div class='subtitle'>Large Size Title: themeify('darkPurple','skyBlue')</div>
+    <div id='titleLarge'></div>
+     <div class='subtitle'>Small Size Title: themeify('blue','cyan')</div>
+    <div id='titleSmall'></div>
+  </div>
+  </div>
+
+  <div class='container'>
+  <div class='newFont'>Animations: Title Elements</div>
+  <div class='explanation'> The animations for Neon Theme are focused on the Title elements. These animations are created using DOM manipulation and JS Events. They can be applied to elements created by NeonTitleGenerator. The animation functions can also be applied to subtitles.</div> 
+    
+  <div class = 'themeElement' >
+      <div class='subtitle'>Glow Animation Title</div>
+      <div id='glowTitle'></div>
+
+      <div class='subtitle'>Blink Animation Title</div>
+      <div id='blinkTitle' ></div>
+
+      <div class='subtitle'>Flash Animation Title</div>
+      <div id='flashTitle' ></div>
+
+      <div class='subtitle'>Slide Animation Title</div>
+      <div id='slideTitle' ></div>
+
+      <div class='subtitle'>Bounce Animation Title</div>
+      <div id='bounceTitle' ></div>
+  </div>
+  </div>
+
+  <!-- Menu Bar -->
+  <div class='container'>
+  <div class='newFont'>Menu Bar</div>
+  <div class= 'themeElement'>
+    <div class='subtitle'>Horizontal Menu Bar: Basic</div>
+    <div id='colorHorizontalMenu'></div>
+    <div class='subtitle'>Horizontal Menu Bar: Glow</div>
+    <div id='glowHorizontalMenu'></div>
+    
+    <div>
+      <div class='subtitle' >Vertical Menu Bars: Basic / Glow</div>
+    </div>
+    <div>
+      <div style='float:left; margin: 10px 100px'id='colorVerticalMenu'></div>
+      <div style='float:left; margin: 10px 10px'id='glowVerticalMenu'></div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Buttons -->
+  <div class='container'>
+  <div class='newFont'>Buttons</div>
+  <div class = 'themeElement'>
+    <div class='subtitle'>Button - Border Change on MouseOver</div>
+    <div id='buttonBorder'></div>
+    <div class='subtitle'>Button - Glow on MouseOver</div>
+    <div id='buttonImgPressed'></div>
+    <div class='subtitle'>Button - Button Real Pressed Effect</div>
+    <div id='buttonRealPressed'></div>
+  </div>
+  </div>
+
+  <!-- Text/Image Boxes -->
+  <div class='container'>
+  <div class='newFont'>Text / Image Boxes</div>
+
+  <div class = 'themeElement'>
+
+      <div class='subtitle'>Regular Text Box & Image Frame</div>
+      <div style='float:left; margin: 10px 10%;'id='textbox'></div>
+      <div style='float:left; margin: 10px 10%;'id='editabletextbox'></div>
+      <div style='float:left; margin: 10px 10%;'id='imgbox'></div>
+   
+      <div class='subtitle'>Themeify-Neon Text Box (darkPurple)</div>
+      <div style='float:left; margin: 0 10%;'id='textboxNeon'></div>
+
+      <div class='subtitle'>InputBox - Glow on MouseOver</div>
+      <div style='float:left; margin: 0 10%;'id='textboxGlow'></div>
+
+      <div class='subtitle'>Animation: Constantly Glowing Textbox</div>
+      <div style='float:left; margin: 0 10%;'id='textboxGlowing'></div>
+
+  </div>
+  </div>
+
+  </div>
+ </body>
+
+</html>
