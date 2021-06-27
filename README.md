@@ -53,10 +53,10 @@ In the header of user's `HTML` file, add the following script/link tags:
 	<script defer type="text/javascript" src='./themeify/themeify_retro.js'></script>
 
 	<!-- CSS File for themeify library - must be imported for fonts and colors -->
-    <link rel='stylesheet' href='./themeify/themeify.css' type="text/css" charset="utf-8"/>
+    	<link rel='stylesheet' href='./themeify/themeify.css' type="text/css" charset="utf-8"/>
 
  	<!-- example.js file to create elements using Themeify library -->
-    <script defer type="text/javascript" src='example.js'></script>
+    	<script defer type="text/javascript" src='example.js'></script>
 </head>
 ```
 Once these script tags are in place, it's done! Users can now use the Themeify Retro Theme elements from the `example.js` file.
@@ -98,10 +98,10 @@ In the header of user's `HTML` file, add the following script/link tags:
 	<script defer type="text/javascript" src='./themeify/themeify_neon.js'></script>
 
 	<!-- CSS File for themeify library - must be imported for fonts and colors -->
-    <link rel='stylesheet' href='./themeify/themeify.css' type="text/css" charset="utf-8"/>
+    	<link rel='stylesheet' href='./themeify/themeify.css' type="text/css" charset="utf-8"/>
 
  	<!-- example.js file to create elements using Themeify library -->
-    <script defer type="text/javascript" src='example.js'></script>
+    	<script defer type="text/javascript" src='example.js'></script>
 </head>
 ```
 Once these script tags are in place, it's done! Users can now use the Themeify Neon Theme elements from the `example.js` file.
