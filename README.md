@@ -94,7 +94,7 @@ In the header of user's `HTML` file, add the following script/link tags:
 	<!-- JQuery Import -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-	<!-- JavaSript file for Themify: Retro Theme -->
+	<!-- JavaSript file for Themify: Neon Theme -->
 	<script defer type="text/javascript" src='./themeify/themeify_neon.js'></script>
 
 	<!-- CSS File for themeify library - must be imported for fonts and colors -->
